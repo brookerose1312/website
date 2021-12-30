@@ -9,6 +9,54 @@ export default function BrookeWebsite({ Component, pageProps }) {
     <div className="bg-light bg-gradient" style={{ height: "100%", minHeight: "100vh" }}>
       <DefaultSeo
         titleTemplate="%s | Brooke Rose Baer -- Web Developer"
+        additionalMetaTags={[
+          {
+            property: "og:url",
+            content: "http://chromelia.dev/",
+          },
+          {
+            property: "og:type",
+            content: "website",
+          },
+          {
+            property: "og:title",
+            content: "Home | Brooke Rose Baer -- Web Developer",
+          },
+          {
+            property: "og:description",
+            content:
+              "Brooke Rose Baer's Personal Website. Brooke is a web developer, trans woman, and humanist who graduated from RPI with a B.S. in ITWS. Learn more about zir here!",
+          },
+          {
+            property: "og:image",
+            content: "http://chromelia.dev/brooke-logo.png",
+          },
+          {
+            property: "twitter:card",
+            content: "summary_large_image",
+          },
+          {
+            property: "twitter:domain",
+            content: "chromelia.dev",
+          },
+          {
+            property: "twitter:url",
+            content: "http://chromelia.dev/",
+          },
+          {
+            property: "twitter:title",
+            content: "Home | Brooke Rose Baer -- Web Developer",
+          },
+          {
+            property: "twitter:description",
+            content:
+              "Brooke Rose Baer's Personal Website. Brooke is a web developer, trans woman, and humanist who graduated from RPI with a B.S. in ITWS. Learn more about zir here!",
+          },
+          {
+            property: "twitter:image",
+            content: "http://chromelia.dev/brooke-logo.png",
+          },
+        ]}
       />
       <Header />
       <Container fluid>

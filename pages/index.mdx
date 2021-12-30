@@ -4,17 +4,7 @@ import { NextSeo } from "next-seo";
 
 <NextSeo
   title="Home"
-  description="Brooke Rose Baer's Personal Website. Brooke is a web developer, trans woman, and humanist who graduated from RPI with a B.S. in ITWS. Learn more about faer here!"
-  additionalMetaTags={[
-    {
-      property: "dc:creator",
-      content: "Brooke Baer"
-    },
-    {
-      property: "application-nane",
-      content: ""
-    }
-  ]}
+  description="Brooke Rose Baer's Personal Website. Brooke is a web developer, trans woman, and humanist who graduated from RPI with a B.S. in ITWS. Learn more about zir here!"
 />
 <Container className="justify-content-center mt-3" fluid>
   <Row className="align-items-center">
@@ -25,7 +15,13 @@ import { NextSeo } from "next-seo";
       </h5>
     </Col>
     <Col className="d-flex justify-content-center" height={400}>
-      <Image src="pfp.jpeg" fluid roundedCircle width={400} />
+      <Image
+        src="pfp.jpeg"
+        fluid
+        roundedCircle
+        width={400}
+        alt="Picture of Brooke"
+      />
     </Col>
   </Row>
   <Container className="mt-3">

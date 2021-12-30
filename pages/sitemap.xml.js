@@ -18,7 +18,8 @@ export const getServerSideProps = ({ res }) => {
       "api",
     ].includes(staticPage))
     .map((staticPagePath) => {
-      const staticPagePathNoExt = staticPagePath.replace(".mdx", "");
+      let staticPagePathNoExt = staticPagePath.replace(".mdx", "");
+      staticPagePathNoExt = staticPagePath.replace(".jsx", "");
       return `${baseUrl}/${staticPagePathNoExt}`;
     });
 

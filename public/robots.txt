@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://chromelia.dev
+
+# Sitemaps
+Sitemap: https://chromelia.dev/sitemap.xml

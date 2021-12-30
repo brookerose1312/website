@@ -1,2 +1,2 @@
-export { default as Header } from "./Header";
-export { default as UnderMaintainance } from "./UnderMaintainance";
+export { default as Header } from "./Header.mdx";
+export { default as UnderMaintainance } from "./UnderMaintainance.mdx";

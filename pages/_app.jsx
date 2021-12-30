@@ -3,9 +3,9 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import { Header } from "../components";
 
-function MyApp({ Component, pageProps }) {
+export default function BrookeWebsite({ Component, pageProps }) {
   return (
-    <div className="bg-light bg-gradient" style={{ height: "100%", "min-height": "100vh" }}>
+    <div className="bg-light bg-gradient" style={{ height: "100%", minHeight: "100vh" }}>
       <Header />
       <Container fluid>
         <Component {...pageProps} />
@@ -13,5 +13,3 @@ function MyApp({ Component, pageProps }) {
     </div>
   );
 }
-
-export default MyApp;

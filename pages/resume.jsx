@@ -11,7 +11,7 @@ export default function Resume() {
   return (
     <>
       <NextSeo title="Resume" description="The resume for Brooke Rose Baer" />
-      <Container fluid>
+      <Container>
         <h1>Brooke Rose Baer</h1>
         <h3>Senior Software Engineer</h3>
         <Row xl={4} md={2} xs={1}>

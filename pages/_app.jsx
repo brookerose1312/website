@@ -5,9 +5,11 @@ import { Header } from "../components";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div>
+    <div className="bg-light bg-gradient" style={{ height: "100vh" }}>
       <Header />
-      <Container fluid><Component {...pageProps} /></Container>
+      <Container fluid>
+        <Component {...pageProps} />
+      </Container>
     </div>
   );
 }

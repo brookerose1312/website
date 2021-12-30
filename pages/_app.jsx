@@ -5,7 +5,7 @@ import { Header } from "../components";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div className="bg-light bg-gradient" style={{ height: "100vh" }}>
+    <div className="bg-light bg-gradient" style={{ height: "100%", "min-height": "100vh" }}>
       <Header />
       <Container fluid>
         <Component {...pageProps} />

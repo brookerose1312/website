@@ -1,13 +1,16 @@
-import { Container, Card, Image } from "react-bootstrap";
+import { Container, Card } from "react-bootstrap";
+import Image from "next/image";
 import { NextSeo } from "next-seo";
+import nextjsLogo from "../public/nextjs-logo.png"
 
 <NextSeo title="About Me" description="Learn about Brooke Rose Baer" />
 <Container className="justify-content-center mt-3" fluid>
   <Container className="d-flex justify-content-center mt-3" fluid>
     <Image 
-      src="nextjs-logo.png"
-      fluid
+      src={nextjsLogo}
       width={600}
+      height={360}
+      placeholder="blur"
       alt="NextJS Logo"
     />
   </Container>

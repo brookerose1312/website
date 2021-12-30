@@ -1,6 +1,8 @@
-import { Container, Row, Col, Image, Card } from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap";
+import Image from "next/image";
 import GitHubCalendar from "react-github-calendar";
 import { NextSeo } from "next-seo";
+import profilePic from "../public/pfp.jpeg"
 
 <NextSeo
   title="Home"
@@ -16,10 +18,11 @@ import { NextSeo } from "next-seo";
     </Col>
     <Col className="d-flex justify-content-center" height={400}>
       <Image
-        src="pfp.jpeg"
-        fluid
-        roundedCircle
+        src={profilePic}
+        className="rounded-circle"
+        placeholder="blur"
         width={400}
+        height={400}
         alt="Picture of Brooke"
       />
     </Col>

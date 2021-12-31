@@ -18,7 +18,7 @@ export default function Resume() {
           <Col>
             <EnvelopeFill />
             <br />
-            brooke@chromelia.dev
+            me@brookero.se
           </Col>
           <Col>
             <TelephoneFill />

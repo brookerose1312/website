@@ -12,7 +12,7 @@ export default function BrookeWebsite({ Component, pageProps }) {
         additionalMetaTags={[
           {
             property: "og:url",
-            content: "http://chromelia.dev/",
+            content: "http://brookero.se/",
           },
           {
             property: "og:type",
@@ -29,7 +29,7 @@ export default function BrookeWebsite({ Component, pageProps }) {
           },
           {
             property: "og:image",
-            content: "http://chromelia.dev/brooke-logo.png",
+            content: "http://brookero.se/brooke-logo.png",
           },
           {
             property: "twitter:card",
@@ -37,11 +37,11 @@ export default function BrookeWebsite({ Component, pageProps }) {
           },
           {
             property: "twitter:domain",
-            content: "chromelia.dev",
+            content: "brookero.se",
           },
           {
             property: "twitter:url",
-            content: "http://chromelia.dev/",
+            content: "http://brookero.se/",
           },
           {
             property: "twitter:title",
@@ -54,7 +54,7 @@ export default function BrookeWebsite({ Component, pageProps }) {
           },
           {
             property: "twitter:image",
-            content: "http://chromelia.dev/brooke-logo.png",
+            content: "http://brookero.se/brooke-logo.png",
           },
         ]}
       />

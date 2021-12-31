@@ -1,10 +1,10 @@
 module.exports = {
-  siteUrl: "https://chromelia.dev",
+  siteUrl: "https://brookero.se",
   generateRobotsTxt: true,
   exclude: ["/sitemap.xml"],
   robotsTxtOptions: {
     additionalSitemaps: [
-      "https://chromelia.dev/sitemap.xml",
+      "https://brookero.se/sitemap.xml",
     ],
   },
 };

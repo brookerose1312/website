@@ -81,7 +81,7 @@ export default function Contact() {
           <p>
             Try submitting again, if that doesn&apos;t work, email Brooke directly at
             {" "}
-            <Alert.Link href="mailto:brooke@chromelia.dev">brooke@chromelia.dev</Alert.Link>
+            <Alert.Link href="mailto:me@brookero.se">me@brookero.se</Alert.Link>
           </p>
         </Alert>
         <Alert show={showSuccess} className="mt-3" variant="success" onClose={() => setShowSuccess(false)} dismissible>

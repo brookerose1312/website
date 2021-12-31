@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://chromelia.dev
+Host: https://brookero.se
 
 # Sitemaps
-Sitemap: https://chromelia.dev/sitemap.xml
+Sitemap: https://brookero.se/sitemap.xml

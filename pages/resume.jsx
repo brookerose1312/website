@@ -59,7 +59,7 @@ export default function Resume() {
               <Card.Body>
                 <Card.Title>Senior Software Engineer</Card.Title>
                 <Card.Subtitle className="text-muted">Evolving Software</Card.Subtitle>
-                <Card.Text className="d-flex justify-content-between">
+                <div className="d-flex justify-content-between">
                   <div>
                     <CalendarFill className="me-2" />
                     Sept 2021 - Current
@@ -68,15 +68,17 @@ export default function Resume() {
                     <GeoAltFill className="me-2" />
                     Albany, NY, 12207
                   </div>
-                </Card.Text>
+                </div>
                 <Card.Text>
                   Work with clients to develop bespoke
                   applications. Develop primarily in a
                   NextJS framework.
                 </Card.Text>
+              </Card.Body>
+              <Card.Body>
                 <Card.Title>iD Certified Instructor</Card.Title>
                 <Card.Subtitle className="text-muted">iD Tech Camps</Card.Subtitle>
-                <Card.Text className="d-flex justify-content-between">
+                <div className="d-flex justify-content-between">
                   <div>
                     <CalendarFill className="me-2" />
                     Jun 2021 - Aug 2021
@@ -85,17 +87,19 @@ export default function Resume() {
                     <GeoAltFill className="me-2" />
                     Campbell, CA 95011
                   </div>
-                </Card.Text>
+                </div>
                 <Card.Text>
                   Teach students game development in Python and JavaScript.
                 </Card.Text>
+              </Card.Body>
+              <Card.Body>
                 <Card.Title>
                   Cafe Worker at Blitman Dining Hall
                 </Card.Title>
                 <Card.Subtitle className="text-muted">
                   Rensselaer Dining Services
                 </Card.Subtitle>
-                <Card.Text className="d-flex justify-content-between">
+                <div className="d-flex justify-content-between">
                   <div>
                     <CalendarFill className="me-2" />
                     Sept 2018 - Aug 2019
@@ -104,7 +108,7 @@ export default function Resume() {
                     <GeoAltFill className="me-2" />
                     Troy, NY, 12180
                   </div>
-                </Card.Text>
+                </div>
                 <Card.Text>
                   Serve students, clean tables, build
                   sandwiches, build salads, sweep dining
@@ -115,7 +119,7 @@ export default function Resume() {
             <Card bg="light" className="mt-3 mb-3">
               <Card.Header as="h2">Skills</Card.Header>
               <Card.Body>
-                <Card.Text className="d-flex justify-content-between">
+                <div className="d-flex justify-content-between">
                   Javascript
                   <div>
                     <CircleFill />
@@ -124,8 +128,8 @@ export default function Resume() {
                     <CircleFill />
                     <Circle />
                   </div>
-                </Card.Text>
-                <Card.Text className="d-flex justify-content-between">
+                </div>
+                <div className="d-flex justify-content-between">
                   C/C++
                   <div>
                     <CircleFill />
@@ -134,8 +138,8 @@ export default function Resume() {
                     <Circle />
                     <Circle />
                   </div>
-                </Card.Text>
-                <Card.Text className="d-flex justify-content-between">
+                </div>
+                <div className="d-flex justify-content-between">
                   Python
                   <div>
                     <CircleFill />
@@ -144,8 +148,8 @@ export default function Resume() {
                     <Circle />
                     <Circle />
                   </div>
-                </Card.Text>
-                <Card.Text className="d-flex justify-content-between">
+                </div>
+                <div className="d-flex justify-content-between">
                   PHP
                   <div>
                     <CircleFill />
@@ -154,7 +158,7 @@ export default function Resume() {
                     <Circle />
                     <Circle />
                   </div>
-                </Card.Text>
+                </div>
               </Card.Body>
             </Card>
           </Col>
@@ -185,6 +189,8 @@ export default function Resume() {
                     <li>Security and Privacy of User Data</li>
                   </ul>
                 </Card.Text>
+              </Card.Body>
+              <Card.Body>
                 <Card.Title>Other</Card.Title>
                 <Card.Text>
                   <ul>

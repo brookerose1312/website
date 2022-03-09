@@ -57,12 +57,34 @@ export default function Resume() {
             <Card bg="light" className="mt-3">
               <Card.Header as="h2">Employment History</Card.Header>
               <Card.Body>
-                <Card.Title>Senior Software Engineer</Card.Title>
+                <Card.Title>Junior Frontend Engineer</Card.Title>
+                <Card.Subtitle className="text-muted">Politech</Card.Subtitle>
+                <div className="d-flex justify-content-between">
+                  <div>
+                    <CalendarFill className="me-2" />
+                    February 2022 - Current
+                  </div>
+                  <div>
+                    <GeoAltFill className="me-2" />
+                    Remote
+                  </div>
+                </div>
+                <Card.Text>
+                  Worked on Blocks, a political
+                  campaign management tool, developing
+                  features to help campaigns manage
+                  voter registrations, phone banking,
+                  and other necessary tasks to do with
+                  running a political campaign
+                </Card.Text>
+              </Card.Body>
+              <Card.Body>
+                <Card.Title>Software Engineer</Card.Title>
                 <Card.Subtitle className="text-muted">Evolving Software</Card.Subtitle>
                 <div className="d-flex justify-content-between">
                   <div>
                     <CalendarFill className="me-2" />
-                    Sept 2021 - Current
+                    Sept 2021 - January 2022
                   </div>
                   <div>
                     <GeoAltFill className="me-2" />
@@ -90,29 +112,6 @@ export default function Resume() {
                 </div>
                 <Card.Text>
                   Teach students game development in Python and JavaScript.
-                </Card.Text>
-              </Card.Body>
-              <Card.Body>
-                <Card.Title>
-                  Cafe Worker at Blitman Dining Hall
-                </Card.Title>
-                <Card.Subtitle className="text-muted">
-                  Rensselaer Dining Services
-                </Card.Subtitle>
-                <div className="d-flex justify-content-between">
-                  <div>
-                    <CalendarFill className="me-2" />
-                    Sept 2018 - Aug 2019
-                  </div>
-                  <div>
-                    <GeoAltFill className="me-2" />
-                    Troy, NY, 12180
-                  </div>
-                </div>
-                <Card.Text>
-                  Serve students, clean tables, build
-                  sandwiches, build salads, sweep dining
-                  room.
                 </Card.Text>
               </Card.Body>
             </Card>

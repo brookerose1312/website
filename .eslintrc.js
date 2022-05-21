@@ -1,4 +1,12 @@
 module.exports = {
+  settings: {
+    "import/resolver": {
+      node: {
+        extensions: [".js", ".jsx"],
+        moduleDirectory: ["node_modules", "./"],
+      },
+    },
+  },
   env: {
     browser: true,
     es2021: true,
@@ -17,6 +25,7 @@ module.exports = {
   },
   plugins: [
     "react",
+    "import",
   ],
   rules: {
     indent: [

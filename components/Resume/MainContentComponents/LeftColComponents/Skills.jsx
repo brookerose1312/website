@@ -3,11 +3,13 @@ import Card from "react-bootstrap/Card";
 import { Proficiency } from "components/Resume/ReusableComponents";
 
 function Skill({ name, score }) {
-  <div className="d-flex justify-content-between" key={name}>
-    {name}
-    {" "}
-    <Proficiency score={score} />
-  </div>;
+  return (
+    <div className="d-flex justify-content-between" key={name}>
+      {name}
+      {" "}
+      <Proficiency score={score} />
+    </div>
+  );
 }
 
 export default function Skills() {

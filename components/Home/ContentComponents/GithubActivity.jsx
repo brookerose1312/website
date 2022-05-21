@@ -7,7 +7,7 @@ export default function GithubActivity() {
     <Card className="mt-3" bg="light">
       <Card.Header>My Github Activity (@brookerose1312)</Card.Header>
       <Card.Body className="d-flex justify-content-center">
-        <GitHubCalendar username="brookerose1312" />
+        <GitHubCalendar username="brookerose1312" year={2022} />
       </Card.Body>
     </Card>
   );

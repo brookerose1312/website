@@ -1,0 +1,42 @@
+---
+import { Image } from "astro:assets";
+import astro from "../imgs/astro.png";
+import DefaultLayout from "../layouts/DefaultLayout.astro";
+---
+
+<DefaultLayout title='About'>
+  <div class='container-fluid justify-content-center mt-3'>
+    <div class='container mt-3 px-4'>
+      <div class='row align-items-center'>
+        <div class='col d-flex justify-content-left'>
+          <Image src={astro} alt='Astro Logo' height={200} />
+        </div>
+        <div class='col'>
+          <h2 class='text-center'>Web development is what I excel at.</h2>
+          <p class='text-center text-muted'>
+            I am a recent graduate from Rensselaer Polytechnic Institute and
+            current employee of Politech. I graduated with a B.S. in the field
+            of Information Technology and Web Science. My skills include
+            JavaScript and Elixir development, as well as soft skills such as
+            teamwork, a strong work ethic, and critical thinking.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class='container ƒmt-3'>
+      <div class='card mt-3 bg-light'>
+        <div class='card-header'>What do I do currently?</div>
+        <div class='card-body'>
+          <h5 class='card-title'>Politech.io</h5>
+          <h6 class='card-subtitle mb-2 text-muted'>Working on Blocks</h6>
+          <p class='card-text'>
+            I work for a company called Politech, developing a software called
+            Blocks. Blocks is a way for political groups to organize as well as
+            get people registered to vote, and quality control those collected
+            voter registrations.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</DefaultLayout>
